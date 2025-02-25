@@ -93,7 +93,7 @@ const ContactUs = () => {
                 rel="noopener noreferrer"
                 style={{ textDecoration: "none", color: "inherit" }}
               >
-                2002 20 Street #5, Bowden, AB, Canada
+                {/* 2002 20 Street #5, Bowden, AB, Canada */}
               </a>
             ),
           },
@@ -102,7 +102,7 @@ const ContactUs = () => {
             title: "Phone Number",
             content: (
               <a href="tel:+1 587-550-2982" style={{ textDecoration: "none", color: "inherit" }}>
-               +1 587-550-2982
+               {/* +1 587-550-2982 */}
               </a>
             ),
           },
@@ -111,7 +111,7 @@ const ContactUs = () => {
             title: "Email",
             content: (
               <a href="mailto:example@gmail.com" style={{ textDecoration: "none", color: "inherit" }}>
-                example@gmail.com
+                {/* example@gmail.com */}
               </a>
             ),
           },
