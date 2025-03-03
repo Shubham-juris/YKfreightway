@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { Box, Typography, Button, Container } from '@mui/material';
 import HeroImage1 from '../../assets/Hero/yktruck.jpg';
-import HeroImage2 from '../../assets/Hero/ykFreight.jpg';
-import HeroImage3 from '../../assets/Hero/ykfreights.jpg';
+import HeroImage2 from '../../assets/Hero/ykFreight.png';
+import HeroImage3 from '../../assets/Hero/ykfreights.png';
 
 const images = [HeroImage1, HeroImage2, HeroImage3];
 
