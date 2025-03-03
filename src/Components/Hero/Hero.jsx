@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { Box, Typography, Button, Container } from '@mui/material';
 import HeroImage1 from '../../assets/Hero/yktruck.jpg';
-import HeroImage2 from '../../assets/Hero/ykfreight.jpg';
-import HeroImage3 from '../../assets/Hero/ykFreights.jpg';
+import HeroImage2 from '../../assets/Hero/ykFreight.jpg';
+import HeroImage3 from '../../assets/Hero/ykfreights.jpg';
 
 const images = [HeroImage1, HeroImage2, HeroImage3];
 
@@ -12,7 +12,7 @@ const Hero = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentImage((prevImage) => (prevImage + 1) % images.length);
-    }, 4000); 
+    }, 4000);
 
     return () => clearInterval(interval);
   }, []);
@@ -47,17 +47,17 @@ const Hero = () => {
         }}
       />
 
-      <Container maxWidth="lg" sx={{ position: 'relative', zIndex: 2 }}>
+      <Container maxWidth='lg' sx={{ position: 'relative', zIndex: 2 }}>
         <Box
           sx={{
             maxWidth: '600px',
-            textAlign: { xs: 'center', md: 'right' }, 
-            margin: { xs: 'auto', md: '0 0 0 auto' }, 
+            textAlign: { xs: 'center', md: 'right' },
+            margin: { xs: 'auto', md: '0 0 0 auto' },
             padding: { xs: '1rem', md: '0' },
           }}
         >
           <Typography
-            variant="h2"
+            variant='h2'
             sx={{
               fontWeight: 'bold',
               mb: 2,
@@ -68,7 +68,7 @@ const Hero = () => {
             Y K Freight Ways
           </Typography>
           <Typography
-            variant="h5"
+            variant='h5'
             sx={{
               mb: 3,
               fontSize: { xs: '1rem', sm: '1.3rem', md: '1.5rem' },
@@ -80,13 +80,13 @@ const Hero = () => {
           <Box
             sx={{
               display: 'flex',
-              justifyContent: { xs: 'center', md: 'flex-end' }, 
+              justifyContent: { xs: 'center', md: 'flex-end' },
               flexDirection: { xs: 'column', sm: 'row' },
               gap: 2,
             }}
           >
             <Button
-              variant="contained"
+              variant='contained'
               sx={{
                 backgroundColor: 'red',
                 color: 'white',
@@ -98,7 +98,7 @@ const Hero = () => {
               Get a Quote
             </Button>
             <Button
-              variant="outlined"
+              variant='outlined'
               sx={{
                 borderColor: 'white',
                 color: 'white',
